@@ -7,7 +7,7 @@ public class Ejercicio3 {
         Scanner scanner = new Scanner(System.in);
         
         System.out.println("Ingrese la edad del primer usuario: ");
-        int usuario1 = scanner.nextInt();
+        int usuario1 = scanner.nextInt(); // Pra leer lo que se ingresa por consola
         
         System.out.println("Ingrese la edad del segundo usuario:");
         int usuario2 = scanner.nextInt();
