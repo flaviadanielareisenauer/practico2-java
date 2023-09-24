@@ -1,0 +1,15 @@
+EJERCICIO 8:
+Cada una de estas expresiones, ¿son true o false?
+
+1. int x=10
+char y =’a’
+y==’b’ || x >= 10 
+
+La expresion 1 se evaluara como true. Porque se utiliza el operador OR, si al menos UNO de los operadores es true, el resultado va ser true.
+
+
+2. int x=3
+int y=8
+!(x == 3 || x == y) && !(y != 8 && x <= y) 
+
+La expresion 2 se evaluara como false. Se utiliza el operador AND, para que su resultado sea true, ambos operadores deben ser true. En este caso son false. Como resultado nos dara false. 
