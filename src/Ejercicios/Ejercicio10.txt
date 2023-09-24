@@ -1,0 +1,28 @@
+EJERCICIO 10: Dada la siguiente secuencia de sentencia, indique en qué línea se produce conversión implícita de tipos y en qué líneas es necesario indicar conversión explícita.
+{
+    1. int a = 1;
+    2. int b = 2;
+    3. float c = 2.3;
+    4. byte d = 3;
+    5. byte e = 10;
+    6. a = d;
+    7. b = a * 2;
+    8. d = e * 2;
+    9. a = c + 1 * 3;
+    10. e = a + 1;
+}
+
+En la linea 4, implica una conversion implicita de tipos. Es necesario realizar una conversion explicita. 
+byte d = (byte) 3;
+
+En la linea 6, implica una conversion implicita de tipos. No es necesario realizar una conversion explicita.
+
+En la linea 7, implica una conversion implicita de tipos. No es necesario realizar una conversion explicita.
+
+En la linea 8, implica una conversion implicita de tipos. Es necesario realizar una conversion explicita. 
+d = (byte)(e * 2);
+
+En la linea 9, implica una conversion implicita de tipos. No es necesario realizar una conversion explicita.
+
+En la linea 10, implica una conversion implicita de tipos. Es necesario realizar una conversion explicita. 
+e = (byte)(a + 1);
