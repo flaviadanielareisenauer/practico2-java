@@ -1,3 +1,11 @@
+/*
+Ejercicio 9: Crear la condición que exprese los siguientes enunciados:
+1. Para subir a una montaña rusa la edad debe ser mayor a 12 años y la altura debe ser mayor a 1,30 m.
+2. Un código es válido si se trata de un número entero de 3 dígitos y capicúa.
+3. Un estudiante pasa de nivel si su nota es mayor a 7 en sus dos evaluaciones parciales, o si obtiene un 4 en el examen final.
+4. Dejamos ver la TV a nuestro hijo si realizó la tarea pero además, si tocó sus prácticas de piano y lo hizo de memoria.
+*/
+
 package Ejercicios;
 
 public class Ejercicio9 {
