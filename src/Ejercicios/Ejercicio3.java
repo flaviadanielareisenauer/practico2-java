@@ -1,3 +1,11 @@
+/*
+Ejercicio 3: Calculadora de edad
+1. Creá distintas variables con edades de 2 usuarios. Ingresá por teclado los valores de las
+edades.
+2. Calculá la cantidad de días que tienen esos años.
+3. Mostrá la respuesta en la consola.
+*/
+
 package Ejercicios;
 import java.util.Scanner;
 
