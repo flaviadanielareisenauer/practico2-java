@@ -1,3 +1,18 @@
+/*
+Ejercicio 2: Mensaje con variables
+4. Declará las siguientes variables y asignales un valor:
+a. 'nombre'
+b. 'edad'
+c. 'cumpleaños'
+d. 'ciudad'
+e. 'ocupacion'
+f. 'hobbie'
+5. Usá System.out.println() para escribir un párrafo que combine strings con la información
+guardada en las variables.
+6. Desafío Bonus: creá múltiples variables en una única línea de código.
+*/
+
+
 package Ejercicios;
 
 public class Ejercicio2 {
